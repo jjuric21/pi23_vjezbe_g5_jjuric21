@@ -5,6 +5,6 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Evaluation_Manager.model {
-    internal class Teacher {
+    public class Teacher {
     }
 }
