@@ -57,5 +57,31 @@ namespace Evaluation_Manager_DS.Repositories {
             };
             return evaluation;
         }
+
+        public static void InsertEvaluation(Student student, Activity activity, Teacher teacher, int points)
+            {
+            string sql = $"INSERT INTO Evaluations (IdActivities, IdStudents, IdTeachers, EvaluationDate, Points) VALUES ({activity.Id} , {student.Id}, {teacher.Id}, GETDATE(), {points})";
+            DB.OpenConnection();
+            DB.ExecuteCommand(sql);
+            DB.CloseConnection();
+
+        }
+        public static void UpdateEvaluation(Evaluation evaluation, Teacher teacher, Points points;)
+            string sql = $"UPDATE Evaluations SET IdTeachers = {teacher.Id}, Points = {points}, EvaluationDate =GETDATE() WHERE IdActivities = {evaluation.Activity} AND IdStudents = {Evaluation.Student.Id}";
+
+             DB.OpenConnection();
+            DB.ExecuteCommand(sql);
+            DB.CloseConnection();
+
+            public void PerformEvaluations (Student student, Activity activity, int points) {
+
+            var evaluation = EvaluationRepository.GetEvaluation(student, activity);
+            if (evaluation = null) {
+                EvaluationRepository.InsertEvaluation(student, activity, this, points);
+
+            } else {
+                EvaluationRepository.UpdateEvaluation(evaluation, this, points);
+                    }
+        }
     }
 }
