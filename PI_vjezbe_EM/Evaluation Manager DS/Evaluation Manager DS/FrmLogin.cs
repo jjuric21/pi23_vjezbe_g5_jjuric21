@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Evaluation_Manager_DS.Models;
+using Evaluation_Manager_DS.Repositories;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -10,8 +12,11 @@ using System.Windows.Forms;
 
 namespace Evaluation_Manager_DS {
     public partial class FrmLogin : Form {
-        string username = "nastavnik";
-        string password = "test";
+       // string username = "nastavnik";
+      // string password = "test";
+
+        public static Teacher LoggedTeacher { get; set; }
+
         public FrmLogin() {
             InitializeComponent();
         }
@@ -27,7 +32,10 @@ namespace Evaluation_Manager_DS {
                 MessageBox.Show("Lozinka nije unesena!", "Problem", MessageBoxButtons.OK,
                 MessageBoxIcon.Error);
             } else {
-                if (txtUsername.Text == username && txtPassword.Text == password) {
+
+                LoggedTeacher = TeacherRepository.GetTeacher(txtUsername.Text);
+
+                if (LoggedTeacher != null && LoggedTeacher.CheckPassword == txtPassword.Text) {
                     FrmStudents frmStudents = new FrmStudents();
                     Hide();
                     frmStudents.ShowDialog();
