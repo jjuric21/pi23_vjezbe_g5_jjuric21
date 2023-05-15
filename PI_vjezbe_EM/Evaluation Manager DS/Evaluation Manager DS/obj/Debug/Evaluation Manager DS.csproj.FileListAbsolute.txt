@@ -1,0 +1,15 @@
+C:\Users\korisnik\source\repos\PI_vjezbe_cs\Evaluation Manager DS\Evaluation Manager DS\bin\Debug\Evaluation Manager DS.exe.config
+C:\Users\korisnik\source\repos\PI_vjezbe_cs\Evaluation Manager DS\Evaluation Manager DS\bin\Debug\Evaluation Manager DS.exe
+C:\Users\korisnik\source\repos\PI_vjezbe_cs\Evaluation Manager DS\Evaluation Manager DS\bin\Debug\Evaluation Manager DS.pdb
+C:\Users\korisnik\source\repos\PI_vjezbe_cs\Evaluation Manager DS\Evaluation Manager DS\obj\Debug\Evaluation Manager DS.csproj.AssemblyReference.cache
+C:\Users\korisnik\source\repos\PI_vjezbe_cs\Evaluation Manager DS\Evaluation Manager DS\obj\Debug\Evaluation Manager DS.csproj.SuggestedBindingRedirects.cache
+C:\Users\korisnik\source\repos\PI_vjezbe_cs\Evaluation Manager DS\Evaluation Manager DS\obj\Debug\Evaluation_Manager_DS.FrmLogin.resources
+C:\Users\korisnik\source\repos\PI_vjezbe_cs\Evaluation Manager DS\Evaluation Manager DS\obj\Debug\Evaluation_Manager_DS.Properties.Resources.resources
+C:\Users\korisnik\source\repos\PI_vjezbe_cs\Evaluation Manager DS\Evaluation Manager DS\obj\Debug\Evaluation Manager DS.csproj.GenerateResource.cache
+C:\Users\korisnik\source\repos\PI_vjezbe_cs\Evaluation Manager DS\Evaluation Manager DS\obj\Debug\Evaluation Manager DS.csproj.CoreCompileInputs.cache
+C:\Users\korisnik\source\repos\PI_vjezbe_cs\Evaluation Manager DS\Evaluation Manager DS\obj\Debug\Evaluation Manager DS.exe
+C:\Users\korisnik\source\repos\PI_vjezbe_cs\Evaluation Manager DS\Evaluation Manager DS\obj\Debug\Evaluation Manager DS.pdb
+C:\Users\korisnik\source\repos\PI_vjezbe_cs\Evaluation Manager DS\Evaluation Manager DS\bin\Debug\DBLayer.dll
+C:\Users\korisnik\source\repos\PI_vjezbe_cs\Evaluation Manager DS\Evaluation Manager DS\obj\Debug\Evaluation_Manager_DS.FrmStudents.resources
+C:\Users\korisnik\source\repos\PI_vjezbe_cs\Evaluation Manager DS\Evaluation Manager DS\obj\Debug\Evaluation Manager DS.csproj.CopyComplete
+C:\Users\korisnik\source\repos\PI_vjezbe_cs\Evaluation Manager DS\Evaluation Manager DS\obj\Debug\Evaluation_Manager_DS.FrmEvaluation.resources
