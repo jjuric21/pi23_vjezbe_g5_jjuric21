@@ -36,5 +36,9 @@ namespace Evaluation_Manager_DS {
                 frmEvaluation.ShowDialog();
             }
         }
+
+        private void BtnGenerateReport_Click(object sender, EventArgs e) {
+            var students = StudentRepository.GetStudents();
+        }
     }
 }
